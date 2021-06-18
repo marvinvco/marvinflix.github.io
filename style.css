@@ -1,0 +1,222 @@
+.header{
+    background-color: #5ce1e6;
+}
+
+.header_area{
+    padding: 15px;
+}
+
+.logo{
+    width: 170px;
+}
+
+.header input{
+    width: 190px;
+}
+
+.menu_area nav a{
+    color: black;
+}
+
+.main0{
+    background-color: azure;
+}
+
+.main{
+    background-color: #b8f3f7;
+}
+
+.main_area{
+    padding: 15px;
+}
+
+.main h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.trailer{
+    padding: 7px;
+    padding-left: 25px;
+}
+
+.carousel-indicators{
+    position: relative;
+    margin-top: 20px;
+}
+
+.main2{
+    background-color: #9adce0;
+}
+
+.main2_area{
+    padding: 20px 110px 20px 110px;
+}
+
+.titulo{
+    padding: 15px 0px 25px;
+}
+
+.poster1 a img{
+    width: 75%;
+    height: 75%;
+}
+
+.poster a img{
+    width: 100%;
+    height: 100%;
+}
+
+.main2 button{
+    margin-top: 25px;
+    float: right;
+}
+
+.avaliacoes{
+    padding: 5px 15px;
+}
+
+.avaliacoes h6{
+    font-size: 22px;
+}
+
+.avaliacoes p{
+    padding: 15px 0px;
+}
+
+.main3{
+    background-color: rgb(124, 212, 212)
+}
+
+.main3_area{
+    padding: 20px 110px 20px 110px;
+}
+
+#title{
+    font-size: 20px;
+}
+
+.main3 button{
+    margin-top: 25px;
+    float: right;
+}
+
+.main4{
+    background-color: #b8f3f7;
+}
+
+.main4_area{
+    padding: 20px 110px 20px 110px;
+}
+
+.main4 h6{
+    font-size: 20px;
+}
+
+.novidades button{
+    padding: 0px 5px;
+    height: 25px;
+    width: auto;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.novidades hr{
+    margin-top: 15px;
+    height: 2px;
+}
+
+.footer{
+    background-color: #5ce1e6;
+}
+
+.footer_area{
+    padding: 20px 110px 20px 110px;
+}
+
+.logo2{
+    width: 110px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+@media screen and (max-width:600px){
+
+    .header{
+        text-align: center;
+    }
+
+    .trailer iframe{
+        width: 330px;
+        height: 200px;
+    }
+
+    .main2_area{
+        padding: 15px;
+    }
+
+    .main3_area{
+        padding: 15px;
+    }
+
+    .entrevistas iframe{
+        width: 330px;
+        height: 200px;
+    }
+
+    .main4_area{
+        padding: 15px;
+    }
+
+    .novidades img{
+        width: 330px;
+        height: 180px;
+    }
+
+    .footer_area{
+        padding: 15px;
+        text-align: center;
+    }
+
+}
+
+/* Breakpoint: 1024 */
+@media screen and (min-width:601px) and (max-width:1024px){
+
+    .header{
+        text-align: center;
+    }
+
+    .header input{
+        float: right;
+    }
+
+    .main2_area{
+        padding: 15px;
+    }
+
+    .trailer iframe{
+        width: 660px;
+        height: 390px;
+    }
+
+    .main3_area{
+        padding: 15px;
+    }
+
+    .entrevistas iframe{
+        width: 330px;
+    }
+
+    .main4_area{
+        padding: 15px;
+    }
+
+    .footer_area{
+        padding: 15px;
+    }
+    
+}

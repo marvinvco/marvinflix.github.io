@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Marvin Flix</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="container header">
+            <div class="row">
+                <div class="col-12 col-lg-12 header_area">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-3">
+                            <img src="img/logo.png" class="logo">
+                        </div>
+                        <div class="col-md-12 col-lg-9 menu_area">
+                            <nav class="nav">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#">Lançamentos</a>
+                                <a class="nav-link" href="#">Em Destaque</a>
+                                <a class="nav-link" href="#">Entrevistas & Making Off</a>
+                                <a class="nav-link" href="#">Novidades</a>
+                                <input type="email" class="form-control" id="txt_pesquisa" placeholder="Pesquisar Filmes">
+                                <button id="btn_pesquisa">Pesquisar</button>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!- Lançamentos -!>
+        <main class="container main">
+            <div class="row">
+                <div class="col-12 main_area">
+                    <!- Carousel -!>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <h2><b>Lançamentos</b></h2>
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-6 trailer">
+                                        <iframe width="620" height="395" src="https://www.youtube.com/embed/n9xhJrPXop4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <h3>Dune</h3><br>
+                                        <p><b>Sinopse: </b>Em um futuro distante, planetas são comandados por casas nobres que fazem parte de um império feudal intergalático. Paul Atreides (Timothée Chalamet) é um jovem homem cuja família toma controle do planeta deserto Arrakis, também conhecido como Duna. Sendo a única fonte da especiaria melange, a substância mais importante do cosmos, Arrakis se prova ser um planeta nem um pouco fácil de governar.</p>
+                                        <p><b>Diretor: </b>Denis Villeneuve <b>Roteiro: </b>Eric Roth <b>Estreia: </b>16 de setembro de 2021</p>
+                                        <p><b>Elenco:</b></p>
+                                        <p>Timothée Chalamet | Rebecca Ferguson | Zendaya</p>
+                                        <p><b>Avaliações: </b></p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-6 trailer">                                       
+                                        <iframe width="620" height="395" src="https://www.youtube.com/embed/wZti8QKBWPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <h3>Nobody</h3><br>
+                                        <p><b>Sinopse: </b>Quando ladrões invadem sua casa, Hutch se recusa a defender a si mesmo ou sua família, na esperança de evitar violência grave. Seu filho adolescente, Blake, está desapontado com ele, e sua esposa, Becca, parece se afastar ainda mais. O rescaldo do incidente acerta a raiva latente de Hutch, desencadeando instintos adormecidos e impulsionando-o em um caminho brutal que revelará segredos obscuros.</p>
+                                        <p><b>Diretor: </b>Ilya Naishuller <b>Roteiro: </b>Derek Kolstad <b>Estreia: </b>13 de maio de 2021</p>
+                                        <p><b>Elenco:</b></p>
+                                        <p>Bob Odenkirk | Aleksey Serebryakov | Connie Nielsen</p>
+                                        <p><b>Avaliações: </b></p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6 trailer">
+                                        <iframe width="620" height="395" src="https://www.youtube.com/embed/mLWJfHCU7b4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Dune</h3><br>
+                                        <p><b>Sinopse: </b>Dom (Vin Diesel) e Letty (Michelle Rodriguez) estão curtindo a lua de mel em Havana, mas a súbita aparição de Cipher (Charlize Theron) atrapalha os planos do casal. Ela logo arma um plano para chantagear Dom, de forma que ele traia seus amigos e passe a ajudá-la a obter ogivas nucleares. Tal situação faz com Letty reúna os velhos amigos, que agora precisam enfrentar Cipher e, consequentemente, Dom.</p>
+                                        <p><b>Diretor: </b>Justin Lin <b>Roteiro: </b>Daniel Casey <b>Estreia: </b>22 de julho de 2021</p>
+                                        <p><b>Elenco:</b></p>
+                                        <p>Vin Diesel | Michelle Rodriguez | Tyrese Gibson</p>
+                                        <p><b>Avaliações: </b></p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-6 trailer">
+                                        <iframe width="620" height="395" src="https://www.youtube.com/embed/JuDLepNa7hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Esquadrão Suicida 2</h3><br>
+                                        <p><b>Sinopse: </b>Pensado para ser uma espécie de leve reboot, a sequência de Esquadrão Suicida, da DC Comics, acompanha um novo time de vilões reunido por uma entidade governamental comandada por Amanda Waller (Viola Davis), com o objetivo de  realizar um trabalho sujo que ninguém tem coragem de fazer. O filme de ação e fantasia é baseado nos quadrinhos criados por John Ostrander para DC a Comics.</p>
+                                        <p><b>Diretor: </b>James Gunn <b>Roteiro: </b>James Gunn <b>Estreia: </b>5 de Agosto de 2021</p>
+                                        <p><b>Elenco:</b></p>
+                                        <p>Margot Robbie | Viola Davis | Joel Kinnaman</p>
+                                        <p><b>Avaliações: </b></p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="container main0">
+            <div class="row">
+                <div class="col-12 main_area">
+                    <div class="row poster1">
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!- Em Destaque -!>
+        <main class="container main2">
+            <div class="row">
+                <div class="col-lg-12 main2_area">
+                    <div class="row titulo">
+                        <div class="col-lg-9">
+                            <h2><b>Em Destaque</b></h2>
+                        </div>
+                        <div class="col-lg-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Categoria: Todos</option>
+                                <option value="1">Aventura</option>
+                                <option value="2">Romance</option>
+                                <option value="3">Comédia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row poster">
+                        <div class="col-6 col-md-3 col-lg-3">
+                            <a href=""><img src="img/dune.jpg" alt=""></a>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-3">
+                            <a href=""><img src="img/nobody.jpg" alt=""></a>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-3">
+                            <a href=""><img src="img/velozes.jpg" alt=""></a>
+                        </div>
+                        <div class="col-6  col-md-3 col-lg-3">
+                            <a href=""><img src="img/esquadrao.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-info">Carregar mais Filmes</button>
+                        </div>
+                    </div>
+                    <div class="row titulo">
+                        <div class="col-lg-12">
+                            <h2><b>Últimas Avaliações</b></h2>
+                        </div>
+                    </div>
+                    <!- Últimas Avaliações -!>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <img src="img/cleverton.jpg" style="border-radius: 50%;" width="50px">
+                                </div>
+                                <div class="col-lg-10 avaliacoes">
+                                    <h6><b>Cleverton Illipronti</b></h6>
+                                    <p><b>Avaliação: </b>Filme muito bom, tem ação na medida certa!!! Um bom resumo do filme é que o personagem principal é o irmão mais velho do John Wick, quando assistir vai entender.</p><br>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <b>25/04/2021</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <img src="img/valter.png" style="border-radius: 50%;" width="50px">
+                                </div>
+                                <div class="col-lg-10 avaliacoes">
+                                    <h6><b>Valter Santana</b></h6>
+                                    <p><b>Avaliação: </b>Pra quem assistiu John Wick em qualquer dos um dos 3 filmes vai simplesmente se estasiar com Nobody. Honestamente, na minha opinião, melhor que todos os filmes de John Wick.</p>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <b>25/04/2021</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <img src="img/roberto.jpg" style="border-radius: 50%;" width="50px">
+                                </div>
+                                <div class="col-lg-10 avaliacoes">
+                                    <h6><b>Roberto Ragozzino</b></h6>
+                                    <p><b>Avaliação: </b>Ótimo filme, principalmente pela magnifica atuação de Bob Odenkirk personagem totalmente oposto, mas a altura do conhecido Jimmy McGill e Saul Goodman, em Better Call Saul e Breaking Bad.</p>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <b>25/04/2021</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-info">Carregar mais Avaliações</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!- Entrevistas & Making Off -!>
+        <main class="container main3">
+            <div class="row">
+                <div class="col-lg-12 main3_area">
+                    <div class="row titulo">
+                        <div class="col-lg-12">
+                            <h2><b>Entrevistas & Making Off</b></h2>
+                        </div>
+                    </div>
+                    <div class="row entrevistas">
+                        <div class="col-md-6 col-lg-4">
+                            <iframe width="350" height="230" src="https://www.youtube.com/embed/SjLijCWt76o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p id="title"><b>Filme: </b>Dune Cast Q&A with Stephen Colbert</p>
+                            <p><b>Diretor: </b>Denis Villeneuve<br>
+                            <b>Roteiro: </b>Eric Roth <b>Estreia: </b>16/09/2021</p>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <iframe width="350" height="230" src="https://www.youtube.com/embed/_jw4CEBGltg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p id="title"><b>Filme: </b>Nobody (2021) | Cast & Filmmaker Interview</p>
+                            <p><b>Diretor: </b>Ilya Naishuller<br>
+                            <b>Roteiro: </b>Derek Kolstad <b>Estreia: </b>13/05/2021</p>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <iframe width="350" height="230" src="https://www.youtube.com/embed/MmKfRXOkX9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p id="title"><b>Filme: </b>F9 Cast Interviews - Vin Diesel, Tyrese Gibson, John Cena and More</p>
+                            <p><b>Diretor: </b>Justin Lin<br>
+                            <b>Roteiro: </b>Daniel Casey <b>Estreia: </b>22/07/2021</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-info">Carregar mais Entrevistas/Making Offs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!- Novidades / Sobre / Editorial / Redes Sociais-!>
+        <main class="container main4">
+            <div class="row">
+                <div class="col-lg-12 main4_area">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <!- Novidades -!>
+                            <div class="col-lg-9">
+                                <div class="row novidades">
+                                    <div class="col-lg-12">
+                                        <h2 class="titulo"><b>Novidades</b></h2>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="img/materia_dune.jpg" width="260px" height="146px">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h6>Dune - Tudo o que sabemos sobre o filme</h6>
+                                        <p>A revista Vanity Fair divulgou em abril de 2020 as primeiras fotos do reboot de Duna. Nelas vemos famosos rostos como Chalamet e Zendaya, que estão nos papéis principais de Chani e Paul.</p>
+                                        <button type="button" class="btn btn-secondary">Warner Bros</button>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <hr>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="img/materia_nobody.jpg" width="260px" height="146px">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h6>Nobody - Bob Odenkirk vai produzir e estrelar o thriller</h6>
+                                        <p>Bob Odenkirk, o eterno Saul Goodman de Breaking Bad e Better Call Saul, fechou um contrato com STX Films para produzir e estrelar o thriller Nobody.</p>
+                                        <button type="button" class="btn btn-secondary">Universal Pictures</button>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <hr>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="img/materia_f9.jpeg" width="260px" height="146px">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h6>Velozes e Furiosos 9 terá cenas no espaço</h6>
+                                        <p>Além da surpresa já entregue no trailer sobre o retorno de Han Lue (Sung Kang) em F9, a atriz Michelle Rodriguez confirmou que também haverá uma cena no espaço com alguns personagens.</p>
+                                        <button type="button" class="btn btn-secondary">Universal Studios</button>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <hr>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="img/suicide.png" width="260px" height="146px">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h6>Esquadrão Suicida - Tudo que sabemos</h6>
+                                        <p>Apesar de ter recebido críticas negativas, o Esquadrão Suicida, filme de David Ayer, de 2016, não apenas foi um sucesso comercial como marcou a primeira vitória da DC no Oscar.</p>
+                                        <button type="button" class="btn btn-secondary">DC Comics</button><button type="button" class="btn btn-secondary">Oscar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!- Sobre -!>
+                            <div class="col-sm-12 col-lg-3">
+                                <h2 class="titulo"><b>Sobre</b></h2>
+                                <p>O Marvin Flix é um projeto escolar, feito para a disciplina de Desenvolvimento de Interfaces Web do curso de Ciência da Computação da Universidade Pontifícia Universidade Católica de Minas Gerais(PUC Minas). O objetivo é criar um portal de filmes que seja responsivo; se adeque a telas de smartphones, tablets e computadores ;e siga o wireframe previamente disponibilizado. Projeto criado por Marcus Vinícius, Turma 01.</p>
+                                <h2 class="titulo"><b>Editorial</b></h2>
+                                <p><b>Redação: </b>Marcus Vinícius</p>
+                                <p><b>Pesquisa: </b>Marcus Vinícius</p>
+                                <p><b>Gerente Geral: </b>Marcus Vinícius</p>
+                                <h2 class="titulo"><b>Redes Sociais</b></h2>
+                                <div class="row">
+                                    <div class="col-2 col-sm-1 col-lg-2">
+                                        <a href=""><img src="img/facebook.png" width="35px"></a>
+                                    </div>
+                                    <div class="col-2 col-sm-1 col-lg-2">
+                                        <a href=""><img src="img/twitter.png" width="35px"></a>
+                                    </div>
+                                    <div class="col-2 col-sm-1 col-lg-2">
+                                        <a href=""><img src="img/instagram.png" width="35px"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="container footer">
+            <div class="row">
+                <div class="col-lg-12 footer_area">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-10">
+                            Marvin Flix - Todos os direitos reservados - 2021
+                        </div>
+                        <div class="col-md-3 col-lg-2">
+                            <img src="img/logo.png" class="logo2">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    </body>
+</html>
